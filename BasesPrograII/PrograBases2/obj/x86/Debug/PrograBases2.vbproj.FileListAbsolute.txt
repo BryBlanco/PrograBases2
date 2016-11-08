@@ -1,0 +1,36 @@
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.exe.config
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.exe
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.pdb
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.xml
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Resources.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.vbproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.exe
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.xml
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.pdb
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.RegistroCliente.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaPedido.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaCatalogo.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaFactura.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Form5.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VClient.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VCatalogoProducto.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Menu.resources
+C:\Users\Carlos\Documents\Materias TEC Semestre 4\Bases de Datos\Proyecto2\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaPuesto.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.exe.config
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.exe
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.xml
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.pdb
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.exe
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.pdb
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\bin\Debug\PrograBases2.xml
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Menu.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VCatalogoProducto.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VClient.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaCatalogo.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaPedido.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaFactura.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Form5.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.RegistroCliente.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.VentanaPuesto.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.Resources.resources
+C:\Users\Bryan Blanco\Desktop\Programacion\PrograBases2\PrograBases2\obj\x86\Debug\PrograBases2.vbproj.GenerateResource.Cache
