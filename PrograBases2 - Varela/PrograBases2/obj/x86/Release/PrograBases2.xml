@@ -1,0 +1,708 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PrograBases2
+</name>
+</assembly>
+<members>
+<member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3.VerDatosCxCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3.VerDatosCxCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3.VerDatosCxCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.VerDatosCxCTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(PrograBases2.SISTEMA_DE_VENTASDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(PrograBases2.SISTEMA_DE_VENTASDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(PrograBases2.SISTEMA_DE_VENTASDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.UpdateAll(PrograBases2.SISTEMA_DE_VENTASDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:PrograBases2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PrograBases2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PrograBases2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet.VerDatosClientesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet.VerDatosClientesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet.VerDatosClientesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.VerDatosClientesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PrograBases2.SISTEMA_DE_VENTASDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PrograBases2.SISTEMA_DE_VENTASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PrograBases2.SISTEMA_DE_VENTASDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.UpdateAll(PrograBases2.SISTEMA_DE_VENTASDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CATALOGO_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CLIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CUENTA_x_COBRARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.FACTURADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PERSONALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_FACTURADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PUESTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.procedimiento1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCatalogoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosClientesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCondicionesDePagoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosEjecutivoVentasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosFacturaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosPedidoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CATALOGO_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CLIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CUENTA_x_COBRARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.FACTURARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PERSONALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_FACTURADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PUESTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.procedimiento1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCatalogoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosClientesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCondicionesDePagoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosEjecutivoVentasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosFacturaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosPedidoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CATALOGO_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CLIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.CUENTA_x_COBRARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.FACTURARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PERSONALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_FACTURADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PRODUCTO_PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.PUESTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.procedimiento1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCatalogoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosClientesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosCondicionesDePagoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosEjecutivoVentasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosFacturaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2.VerDatosPedidoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.CATALOGO_PRODUCTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.CLIENTETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.CUENTA_x_COBRARTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.FACTURATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.PERSONALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.PRODUCTO_FACTURADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.PRODUCTO_PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.PUESTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.procedimiento1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosCatalogoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosClientesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosCondicionesDePagoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosEjecutivoVentasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosFacturaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.VerDatosPedidoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(PrograBases2.SISTEMA_DE_VENTASDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(PrograBases2.SISTEMA_DE_VENTASDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(PrograBases2.SISTEMA_DE_VENTASDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.UpdateAll(PrograBases2.SISTEMA_DE_VENTASDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DS.VerDatosCxCDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DS.VerDatosCxCRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DS.VerDatosCxCRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DSTableAdapters.VerDatosCxCTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.UpdateUpdatedRows(PrograBases2.VerDatosCxC_DS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.UpdateInsertedRows(PrograBases2.VerDatosCxC_DS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.UpdateDeletedRows(PrograBases2.VerDatosCxC_DS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.UpdateAll(PrograBases2.VerDatosCxC_DS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PrograBases2.VerDatosCxC_DSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CATALOGO_PRODUCTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CLIENTEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CUENTA_X_COBRARDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.FACTURADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PERSONALDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_FACTURADODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_PEDIDODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PUESTODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.procedimiento1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosCatalogoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosClientesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CATALOGO_PRODUCTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CLIENTERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CUENTA_X_COBRARRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.FACTURARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PERSONALRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_FACTURADORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_PEDIDORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PUESTORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.procedimiento1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosCatalogoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosClientesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CATALOGO_PRODUCTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CLIENTERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.CUENTA_X_COBRARRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.FACTURARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PERSONALRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_FACTURADORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PRODUCTO_PEDIDORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.PUESTORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.procedimiento1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosCatalogoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1.VerDatosClientesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.CATALOGO_PRODUCTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.CLIENTETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.CUENTA_X_COBRARTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.FACTURATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.PERSONALTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.PRODUCTO_FACTURADOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.PRODUCTO_PEDIDOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.PUESTOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.procedimiento1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.VerDatosCatalogoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.VerDatosClientesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PrograBases2.SISTEMA_DE_VENTASDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PrograBases2.SISTEMA_DE_VENTASDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PrograBases2.SISTEMA_DE_VENTASDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.UpdateAll(PrograBases2.SISTEMA_DE_VENTASDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PrograBases2.SISTEMA_DE_VENTASDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
