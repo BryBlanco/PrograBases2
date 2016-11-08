@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D212FEB6-C2A4-41CB-ACDF-4156434767B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PrograBases2.My.MyApplication</StartupObject>
+    <RootNamespace>PrograBases2</RootNamespace>
+    <AssemblyName>PrograBases2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PrograBases2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PrograBases2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\conexion.vb" />
+    <Compile Include="Interfaz\Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCatalogo.Designer.vb">
+      <DependentUpon>ReporteCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCliente.Designer.vb">
+      <DependentUpon>ReporteCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCondicionPago.Designer.vb">
+      <DependentUpon>ReporteCondicionPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCondicionPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCxC.Designer.vb">
+      <DependentUpon>ReporteCxC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReporteCxC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReporteFactura.Designer.vb">
+      <DependentUpon>ReporteFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReporteFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReportePedido.Designer.vb">
+      <DependentUpon>ReportePedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReportePedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\ReportePersonal.Designer.vb">
+      <DependentUpon>ReportePersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\ReportePersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VCatalogoProducto.Designer.vb">
+      <DependentUpon>VCatalogoProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VCatalogoProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VClient.Designer.vb">
+      <DependentUpon>VClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VClienteEstadoPedido.Designer.vb">
+      <DependentUpon>VClienteEstadoPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VClienteEstadoPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VentanaCatalogo.Designer.vb">
+      <DependentUpon>VentanaCatalogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VentanaCatalogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VentanaPedido.Designer.vb">
+      <DependentUpon>VentanaPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VentanaPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VentanaFactura.Designer.vb">
+      <DependentUpon>VentanaFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VentanaFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\RegistroCliente.Designer.vb">
+      <DependentUpon>RegistroCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\RegistroCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VentanaPuesto.Designer.vb">
+      <DependentUpon>VentanaPuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VentanaPuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SISTEMA_DE_VENTASDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SISTEMA_DE_VENTASDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA_DE_VENTASDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SISTEMA_DE_VENTASDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA_DE_VENTASDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SISTEMA_DE_VENTASDataSet2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaz\Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReporteCatalogo.resx">
+      <DependentUpon>ReporteCatalogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReporteCliente.resx">
+      <DependentUpon>ReporteCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReporteCondicionPago.resx">
+      <DependentUpon>ReporteCondicionPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReporteCxC.resx">
+      <DependentUpon>ReporteCxC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReporteFactura.resx">
+      <DependentUpon>ReporteFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReportePedido.resx">
+      <DependentUpon>ReportePedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\ReportePersonal.resx">
+      <DependentUpon>ReportePersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VCatalogoProducto.resx">
+      <DependentUpon>VCatalogoProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VClient.resx">
+      <DependentUpon>VClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VClienteEstadoPedido.resx">
+      <DependentUpon>VClienteEstadoPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VentanaCatalogo.resx">
+      <DependentUpon>VentanaCatalogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VentanaPedido.resx">
+      <DependentUpon>VentanaPedido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VentanaFactura.resx">
+      <DependentUpon>VentanaFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\RegistroCliente.resx">
+      <DependentUpon>RegistroCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VentanaPuesto.resx">
+      <DependentUpon>VentanaPuesto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet.xsc">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SISTEMA_DE_VENTASDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet.xss">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet1.xsc">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SISTEMA_DE_VENTASDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet1.xss">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet2.xsc">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SISTEMA_DE_VENTASDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SISTEMA_DE_VENTASDataSet2.xss">
+      <DependentUpon>SISTEMA_DE_VENTASDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
